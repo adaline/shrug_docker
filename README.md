@@ -14,14 +14,21 @@ Once Rails boots your app will be available at the usual: http://localhost:3000
 
 Also for ease of use some utility commands:
 * `make attach` - start a bash session within the container
-* `make console` - start a rails console within the container
-* `make cleanup` - delete all untagged images (old builds)
+* `make console` - start a Rails console within the container
+* `make start` - start previously created container
 
 ---
 
-This build is based on the [official Ruby docker repo](https://registry.hub.docker.com/_/ruby/) and runs Ruby 2.2.1
+This build is based on the official Ruby Docker image and runs Ruby 2.2.1.
 
 
 Enjoy!  
 Val  
 [@webmadespecial](https://twitter.com/webmadespecial)
+
+---
+
+Useful links:
+
+[Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)
+[Official Ruby Docker repo](https://registry.hub.docker.com/_/ruby/)
